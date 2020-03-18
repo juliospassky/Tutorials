@@ -1,11 +1,13 @@
+Créditos crissilvaeng [Styleguides](https://gist.github.com/crissilvaeng/dfb5b14f8eb2c25df4fd8a49f4f03252#file-readme-md)
+
 # Styleguides
 
 ## Mensagens de commit styleguide
 
-- Usar modo imperativo ("Adiciona feature" nÃ£o "Adicionando feature" ou "Adicionada feature")
-- Primeira linha deve ter no mÃ¡ximo 72 caracteres
+- Usar modo imperativo ("Adiciona feature" não "Adicionando feature" ou "Adicionada feature")
+- Primeira linha deve ter no máximo 72 caracteres
 - Considere descrever com detalhes no corpo do commit
-- Considere usar um emoji no inÃ­cio da mensagem de commit
+- Considere usar um emoji no início da mensagem de commit
 
 Emoji | Code | Commit Type
 ------------ | ------------- | -------------
@@ -28,8 +30,6 @@ Emoji | Code | Commit Type
 
 ### Exemplo
 ```bash
-git commit -m ":memo: Adiciona instruÃ§Ãµes de contribuiÃ§Ã£o
->
-> Foi criado o arquivo CONTRIBUTING.md com as instruÃ§Ãµes de
-> como fazer um bom commit"
+git commit -m ":memo: Adiciona instruções de contribuição
+> Foi criado o arquivo CONTRIBUTING.md com as instrussões de como fazer um bom commit"
 ``` 
