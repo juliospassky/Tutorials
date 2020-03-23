@@ -4,8 +4,8 @@
 ## Docker e Kitmatic
  - No Kitmatic adicione a imagem mssql-server-linux
  - Adicione as variáveis de ambiente:
-  - MSSQL_SA_PASSWORD : a1s2d3f4#
-  - ACCEPT_EULA : Y
+   - MSSQL_SA_PASSWORD : a1s2d3f4#
+   - ACCEPT_EULA : Y
  - Start na imagem
  
 ## Sql Management Studio 
