@@ -11,4 +11,4 @@
 ## Sql Management Studio 
  - Nome Servidor : localhost,32773 (Verificar a porta em HostName/Ports)
  
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Concectar%20MSSQL%20Studio%20com%20Img%20Docker/img.png)
