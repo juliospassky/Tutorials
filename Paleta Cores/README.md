@@ -9,6 +9,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #A239CA
   - #471716
   - #E7DFDD
+  
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img1.png">
 </p>
@@ -20,6 +21,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #062F4F
   - #813772
   - #B82601
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img2.png">
 </p>
@@ -31,6 +33,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #233237
   - #984B43
   - #EAC67A
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img3.png">
 </p>
@@ -42,6 +45,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E9B000
   - #EB6E80
   - #008F95
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img4.png">
 </p>
@@ -53,6 +57,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #328CC1
   - #D9B310
   - #1D2731
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img5.png">
 </p>
@@ -64,6 +69,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #0A1612
   - #1A2930
   - #E7CE3E
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img6.png">
 </p>
@@ -75,6 +81,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #EC576B
   - #4EC5C1
   - #E5E338
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img7.png">
 </p>
@@ -86,6 +93,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #57BC90
   - #015249
   - #A5A5AF
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img8.png">
 </p>
@@ -97,6 +105,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #88D317
   - #1A0315
   - #535353
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img9.png">
 </p>
@@ -108,6 +117,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #000000
   - #01ABAA
   - #FEA680  
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img10.png">
 </p>
@@ -119,6 +129,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #FBA100
   - #6C648B
   - #B6A19E
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img11.png">
 </p>
@@ -130,6 +141,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #626E60
   - #AF473C
   - #3C3C3C
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img12.png">
 </p>
@@ -141,6 +153,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #F53240
   - #F98E02
   - #02C8A7
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img13.png">
 </p>
@@ -152,6 +165,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E9E7DA
   - #636B46
   - #373F27
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img14.png">
 </p>
@@ -163,6 +177,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #675682
   - #5F0F4E
   - #E52A6F
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img15.png">
 </p>
@@ -174,6 +189,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #22252C
   - #3F3250
   - #C0B3A0
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img16.png">
 </p>
@@ -185,6 +201,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #575DA9
   - #E42D9F
   - #02558B
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img17.png">
 </p>
@@ -196,6 +213,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #6D7993
   - #9099A2
   - #D5D5D5
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img18.png">
 </p>
@@ -207,6 +225,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #DCD0CD
   - #F4F4F4
   - #373737
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img19.png">
 </p>
@@ -218,6 +237,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #88BBD6
   - #CDCDCD
   - #E9E9E9
+
 <p align="center">
 <img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img20.png">
 </p>
