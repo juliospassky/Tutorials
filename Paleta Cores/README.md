@@ -9,8 +9,9 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #A239CA
   - #471716
   - #E7DFDD
-  
- ![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img1.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img1.png">
+</p>
 ## Quente e ousado
 "Vermelhos e azuis vibrantes são combinados com tons fortes de anil e púrpura para proporcionar um ar idílico e ousado."
 - Cores
