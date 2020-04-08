@@ -2,4 +2,4 @@
  
 ## File -> Preferences -> Settings
  
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Concectar%20MSSQL%20Studio%20com%20Img%20Docker/img.png)
+![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Formatar%20o%20código%20ao%20salvar/img.png)
