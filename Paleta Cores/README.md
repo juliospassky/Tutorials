@@ -20,7 +20,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #062F4F
   - #813772
   - #B82601
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img2.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img2.png">
+</p>
+
 ## Quente vs. frio
 "Tons quentes de laranja e amarelo foram contrastados com cores frias e metálicas para criar um efeito dinâmico incisivo."
 - Cores 
@@ -28,7 +31,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #233237
   - #984B43
   - #EAC67A
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img3.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img3.png">
+</p>
+
 ## Ousado e arrebatador
 "Mesmo usando uma variedade enorme de cores de uma só vez, o esquema quente e consistente mantém o design coeso e lógico."
 - Cores
@@ -36,7 +42,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E9B000
   - #EB6E80
   - #008F95
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img4.png)  
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img4.png">
+</p>
+
 ## Elegante e sofisticado
 "Tons profundos de azul com destaques sutis de dourado. Esta também é uma paleta inspirada na história da arte, e sua combinação de cores é atemporal e maravilhosa."
 - Cores
@@ -44,7 +53,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #328CC1
   - #D9B310
   - #1D2731
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img5.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img5.png">
+</p>
+
 ## Profissional e moderno
 "A mistura de tons de cinza, azul-marinho e amarelo intenso com o layout moderno e ousado resulta em um design que impõe respeito."
 - Cores
@@ -52,7 +64,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #0A1612
   - #1A2930
   - #E7CE3E
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img6.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img6.png">
+</p>
+
 ## Preto ousado e destaques vibrantes
 "O contraste entre as cores proporciona um efeito poderoso, ousado e divertido."
 - Cores
@@ -60,7 +75,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #EC576B
   - #4EC5C1
   - #E5E338
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img7.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img7.png">
+</p>
+
 ## Degradê e cores desbotadas
 "Tons azuis e turquesa, que foram desbotados para criar um efeito degradê calmo e limpo."
 - Cores
@@ -68,7 +86,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #57BC90
   - #015249
   - #A5A5AF
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img8.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img8.png">
+</p>
+
 ## Combinações de cores surpreendentes
 "O tom rico de roxo contrasta incrivelmente com o verde-limão vibrante e o branco, criando um design único e memorável."
 - Cores
@@ -76,7 +97,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #88D317
   - #1A0315
   - #535353
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img9.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img9.png">
+</p>
+
 ## Inspiração retrô
 "Essa paleta retrô tem muita personalidade, energia e um toque bem moderno."
 - Cores
@@ -84,7 +108,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #000000
   - #01ABAA
   - #FEA680  
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img10.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img10.png">
+</p>
+
 ## Leve e calmo
 "Crie uma atmosfera relaxante e praieira com tons de turquesa e roxo, e utilize toques de laranja para deixar a paleta calma, convidativa e diferenciada."
 - Cores
@@ -92,7 +119,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #FBA100
   - #6C648B
   - #B6A19E
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img11.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img11.png">
+</p>
+
 ## Orgânico e fresco
 "Inspira-se nos tons orgânicos dos vegetais, misturando esses tons com o espaço em branco para criar um visual leve e surpreendente."
 - Cores
@@ -100,7 +130,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #626E60
   - #AF473C
   - #3C3C3C
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img12.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img12.png">
+</p>
+
 ## Quente e maravilhoso
 "Ao misturar ciano intenso com tons de amarelo, vermelho e azul-marinho, você pode conquistar uma paleta flexível, divertida e atraente."
 - Cores
@@ -108,7 +141,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #F53240
   - #F98E02
   - #02C8A7
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img13.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img13.png">
+</p>
+
 ## Charme vintage
 "Tons de dourado, verde, marrom e branco para criar um efeito charmoso e cheio de classe."
 - Cores
@@ -116,7 +152,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E9E7DA
   - #636B46
   - #373F27
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img14.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img14.png">
+</p>
+
 ## Tons frios de joia
 "Tons de roxo e azul, inspirados nas cores das pedras preciosas, e degradês sutis para criar uma paleta simples, porém elegante e atraente."
 - Cores
@@ -124,7 +163,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #675682
   - #5F0F4E
   - #E52A6F
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img15.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img15.png">
+</p>
+
 ## Cores ousadas
 "Tons de cinza, carvão e azul-marinho combinados com toques de cereja."
 - Cores
@@ -132,7 +174,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #22252C
   - #3F3250
   - #C0B3A0
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img16.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img16.png">
+</p>
+
 ## Arte pop
 "Tons de rosa-choque, amarelo e azul inseridos neste design minimalista proporcionam muita vida e personalidade."
 - Cores
@@ -140,7 +185,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #575DA9
   - #E42D9F
   - #02558B
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img17.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img17.png">
+</p>
+
 ## Desbotado e minimalista
 "Você pode conquistar um visual atemporal e sofisticado combinando tons desbotados com tons claros de cinza."
 - Cores
@@ -148,7 +196,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #6D7993
   - #9099A2
   - #D5D5D5
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img18.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img18.png">
+</p>
+
 ## Tons suaves
 "Simples, minimalista e elegante, esta paleta é perfeita para qualquer tipo de design sofisticado."
 - Cores
@@ -156,7 +207,10 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #DCD0CD
   - #F4F4F4
   - #373737
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img19.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img19.png">
+</p>
+
 ## Leve e puro
 "Ao combinar diferentes tons de azul com alguns tons de cinza, esse esquema mostra-se minimalista e simples, mas sem ser sem graça."
 - Cores
@@ -164,4 +218,6 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #88BBD6
   - #CDCDCD
   - #E9E9E9
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img20.png)
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img20.png">
+</p>
