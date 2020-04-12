@@ -11,7 +11,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E7DFDD
   
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img1.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img1.png">
 </p>
 
 ## Quente e ousado
@@ -23,7 +23,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #B82601
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img2.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img2.png">
 </p>
 
 ## Quente vs. frio
@@ -35,7 +35,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #EAC67A
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img3.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img3.png">
 </p>
 
 ## Ousado e arrebatador
@@ -47,7 +47,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #008F95
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img4.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img4.png">
 </p>
 
 ## Elegante e sofisticado
@@ -59,7 +59,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #1D2731
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img5.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img5.png">
 </p>
 
 ## Profissional e moderno
@@ -71,7 +71,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E7CE3E
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img6.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img6.png">
 </p>
 
 ## Preto ousado e destaques vibrantes
@@ -83,7 +83,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E5E338
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img7.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img7.png">
 </p>
 
 ## Degradê e cores desbotadas
@@ -95,7 +95,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #A5A5AF
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img8.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img8.png">
 </p>
 
 ## Combinações de cores surpreendentes
@@ -107,7 +107,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #535353
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img9.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img9.png">
 </p>
 
 ## Inspiração retrô
@@ -119,7 +119,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #FEA680  
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img10.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img10.png">
 </p>
 
 ## Leve e calmo
@@ -131,7 +131,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #B6A19E
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img11.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img11.png">
 </p>
 
 ## Orgânico e fresco
@@ -143,7 +143,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #3C3C3C
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img12.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img12.png">
 </p>
 
 ## Quente e maravilhoso
@@ -155,7 +155,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #02C8A7
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img13.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img13.png">
 </p>
 
 ## Charme vintage
@@ -167,7 +167,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #373F27
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img14.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img14.png">
 </p>
 
 ## Tons frios de joia
@@ -179,7 +179,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E52A6F
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img15.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img15.png">
 </p>
 
 ## Cores ousadas
@@ -191,7 +191,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #C0B3A0
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img16.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img16.png">
 </p>
 
 ## Arte pop
@@ -203,7 +203,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #02558B
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img17.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img17.png">
 </p>
 
 ## Desbotado e minimalista
@@ -215,7 +215,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #D5D5D5
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img18.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img18.png">
 </p>
 
 ## Tons suaves
@@ -227,7 +227,7 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #373737
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img19.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img19.png">
 </p>
 
 ## Leve e puro
@@ -239,5 +239,5 @@ Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impact
   - #E9E9E9
 
 <p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/img20.png">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/img20.png">
 </p>
