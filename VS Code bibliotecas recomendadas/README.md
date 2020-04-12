@@ -1,7 +1,7 @@
 # VS Code bibliotecas recomendadas
 - VS Code
   - Dracula official - Theme para o VS Code
-  - Material Icon Theme - Melhora as imagens de pastas e arquivos  
+  - VSCode Icons Team - Melhora as imagens de pastas e arquivos  
   - Prettier - Formata código
   - Bracket Pair Colorise - Traça uma linha no abre e fecha chaves {}
   
