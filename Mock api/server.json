@@ -1,0 +1,107 @@
+{
+    "id": "mockoon_export",
+    "appVersion": "1.4.0",
+    "checksum": "667eb89c3958f17e09efc6df990b21ce",
+    "subject": "full",
+    "data": [
+        {
+            "uuid": "7ec95aa0-bb25-11e9-8cd5-dd5309841ffa",
+            "name": "7188",
+            "endpointPrefix": "",
+            "latency": 0,
+            "port": 7188,
+            "routes": [
+                {
+                    "uuid": "7ec95aa1-bb25-11e9-8cd5-dd5309841ffa",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "v1/login",
+                    "body": "{\n    \"username\":\"batman\",\n    \"name\":\"Bruce Wayne\",\n    \"image\":\"https://baltademos.blob.core.windows.net/eshop/batman.png\",\n    \"email\":\"batman@balta.io\",\n    \"token\":\"aHR0cHM6Ly9iYWx0YWRlbW9zLmJsb2IuY29yZS53aW5kb3dzLm5ldC9lc2hvcC9iYXRtYW4ucG5n\",\n    \"roles\":[\"employee\", \"manager\"]\n}",
+                    "latency": 1200,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "7ec95aa2-bb25-11e9-8cd5-dd5309841ffa",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "v1/reports/ms",
+                    "body": "{\r\n    \"labels\": [\"Janeiro\", \"Fevereiro\", \"Março\", \"Abril\", \"Maio\", \"Junho\"],\r\n    \"datasets\": [{\r\n      \"label\": \"# de vendas\",\r\n      \"data\": [7,9,12,24,8,5],\r\n      \"backgroundColor\": [\r\n        \"rgba(255, 99, 132, 0.2)\",\r\n        \"rgba(54, 162, 235, 0.2)\",\r\n        \"rgba(255, 206, 86, 0.2)\",\r\n        \"rgba(75, 192, 192, 0.2)\",\r\n        \"rgba(153, 102, 255, 0.2)\",\r\n        \"rgba(255, 159, 64, 0.2)\"\r\n      ],\r\n      \"borderColor\": [\r\n        \"rgba(255, 99, 132, 1)\",\r\n        \"rgba(54, 162, 235, 1)\",\r\n        \"rgba(255, 206, 86, 1)\",\r\n        \"rgba(75, 192, 192, 1)\",\r\n        \"rgba(153, 102, 255, 1)\",\r\n        \"rgba(255, 159, 64, 1)\"\r\n      ],\r\n      \"borderWidth\": 1\r\n    }]\r\n}",
+                    "latency": 1500,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "7ec95aa3-bb25-11e9-8cd5-dd5309841ffa",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "v1/orders",
+                    "body": "[\n    {\n        \"number\":\"8CV56R74\",\n        \"date\":\"2019-07-18T17:49:00.000+0000\",\n        \"status\":\"waiting_payment\",\n        \"total\":23999,\n        \"customer\": {\n            \"name\":\"Bruce Wayne\"\n        }\n    },\n    {\n        \"number\":\"2795EF65\",\n        \"date\":\"2019-07-18T18:12:00.000+0000\",\n        \"status\":\"confirmed\",\n        \"total\":7884,\n        \"customer\": {\n            \"name\":\"Peter Parker\"\n        }\n    }\n]",
+                    "latency": 1500,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "2ece3d70-bca3-11e9-bd17-a942bdf500a1",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "v1/orders/8CV56R74",
+                    "body": "{\n    \"number\": \"8CV56R74\",\n    \"date\": \"2019-07-18T17:49:00.000+0000\",\n    \"status\": \"waiting_payment\",\n    \"total\": 23999,\n    \"discount\": 990,\n    \"deliveryFee\": 990,\n    \"customer\": {\n        \"name\":\"Bruce Wayne\"\n    },\n    \"items\": [\n        {\n            \"code\": \"C5BFAAF9\",\n            \"title\": \"Ração Canil 30KG\",\n            \"price\": 20000\n        },\n        {\n            \"code\": \"AFA21D81\",\n            \"title\": \"Coleira Cachorro Petz\",\n            \"price\": 3990\n        }\n    ]\n}",
+                    "latency": 1300,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                }
+            ],
+            "proxyMode": false,
+            "proxyHost": "",
+            "https": false,
+            "cors": true,
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Origin, X-Requested-With, Content-Type, Accept, x-access-token"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                }
+            ]
+        }
+    ]
+}
