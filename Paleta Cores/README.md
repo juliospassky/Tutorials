@@ -1,5 +1,6 @@
-Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impactantes/
-		  https://www.cnet.com/news/using-androids-dark-mode-improves-battery-life-google-confirms-p/
+Creditos
+https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impactantes/
+https://www.cnet.com/news/using-androids-dark-mode-improves-battery-life-google-confirms-p/
 		  
 # RGB Consumo de energia
 As cores usadas em uma aplicação tem impacto direto no consumo de energia.
