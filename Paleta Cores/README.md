@@ -1,5 +1,16 @@
 Creditos: https://www.canva.com/pt_br/aprenda/cores-para-sites-50-paginas-impactantes/
+		  https://www.cnet.com/news/using-androids-dark-mode-improves-battery-life-google-confirms-p/
+		  
+# RGB Consumo de energia
+As cores usadas em uma aplicação tem impacto direto no consumo de energia.
+Em casos de desenvolvimento de aplicações mobile, onde deseja-se que o app tenha um baixo consumo de energia,
+recomenda-se usar cores próximas ao preto que consomem menos energia, em seguida, as cores verde e vermelho e deve-se evitar azul e branco.
 
+## Gráfico com idicação de consumo de energia
+<p align="center">
+<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/energia.png">
+</p>
+		  
 # Paleta de cores indicadas para front-end
 
 ## Tons de neon contrastantes
