@@ -2,4 +2,4 @@
  
 ## File -> Preferences -> Settings
  
-![Image of Config](https://github.com/juliocsoft/Tutorials/blob/master/Formatar%20o%20código%20ao%20salvar/img.png)
+![Image of Config](https://github.com/juliospassky/Tutorials/blob/master/VS%20Code/Formatar%20o%20c%C3%B3digo%20ao%20salvar/img.png)
