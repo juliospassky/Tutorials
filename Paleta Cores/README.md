@@ -17,7 +17,7 @@ recomenda-se usar cores próximas ao preto que consomem menos energia, em seguid
 - Cores
   - #0E0B16
   - #A239CA
-  - #471716
+  - #4717F6
   - #E7DFDD
   
 <p align="center">
