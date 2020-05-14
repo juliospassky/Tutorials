@@ -6,29 +6,28 @@ Evite criar um banco com um simples comando:
 CREATE DATABASE MyDB
 ```
 
-Esse modelo de criação Default não traz desempenho para o banco. Procure definir um tamanho inicial para o banco em MB ou GB, defina a taxa de crescimento (evite taxas de crescimento muito baixas) e procure separar os arquivos que compe o banco para não sobrecarregar o arquivo mdf
-
+Esse modelo de criação Default não traz desempenho para o banco. Procure definir um tamanho inicial para o banco em MB ou GB, defina a taxa de crescimento (evite taxas de crescimento muito baixas) e procure separar os arquivos que compe o banco para não sobrecarregar o arquivo mdf e se possível em mais de uma repartição de disco.
  
 Exemplo de criação:
 ```sql
-CREATE DATABASE DBDemoA
+CREATE DATABASE MyDB
 ON PRIMARY                                      -- FG Primario 
  ( NAME = 'Primario', 
-   FILENAME = 'D:\DBDemoA_Primario.mdf' , 
+   FILENAME = 'D:\MyDB_Primario.mdf' , 
    SIZE = 64MB 
  ), 
 FILEGROUP DADOS                                 -- FG com o nome DADOS 
  ( NAME = 'DadosTransacional1',                 
-   FILENAME = 'E:\DBDemoA_SecundarioT1.ndf' , 
+   FILENAME = 'E:\MyDB_SecundarioT1.ndf' , 
    SIZE = 1024MB
  ) ,
  ( NAME = 'DadosTransacional2', 
-   FILENAME = 'E:\DBDemoA_SecundarioT2.ndf' , 
+   FILENAME = 'E:\MyDB_SecundarioT2.ndf' , 
    SIZE = 1024MB
  ) 
 LOG ON 
  ( NAME = 'Log', 
-   FILENAME = 'F:\DBDemoA_Log.ldf' , 
+   FILENAME = 'F:\MyDB_Log.ldf' , 
    SIZE = 512MB 
   )   
 GO
