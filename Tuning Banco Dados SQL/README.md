@@ -1,7 +1,11 @@
 Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.udemy.com/course/tuning-em-t-sql/)
 
 # Criação do banco
-Evite criar um banco com um simples comando: CREATE DATABASE MyDB
+Evite criar um banco com um simples comando: 
+```sql
+CREATE DATABASE MyDB
+```
+
 Esse modelo de criação Default não traz desempenho para o banco. Procure definir um tamanho inicial para o banco em MB ou GB, defina a taxa de crescimento (evite taxas de crescimento muito baixas) e procure separar os arquivos que compe o banco para não sobrecarregar o arquivo mdf
 
  
@@ -33,9 +37,3 @@ GO
 ALTER DATABASE [DBDemoA] MODIFY FILEGROUP [DADOS] DEFAULT 
 GO
 ```
-
-
-## Gráfico com idicação de consumo de energia
-<p align="center">
-<img src="https://github.com/juliocsoft/Tutorials/blob/master/Paleta%20Cores/imgs/energia.png">
-</p>
