@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Armazenamento de Dados">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DBSERVER:DBSERVER\Administrator">
+          <Created>2018-03-20T11:34:02.4103813-07:00</Created>
+          <Type>SQL</Type>
+          <Server>DBSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 - Estrutura de uma pagina de dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - Estrutura de uma pagina de dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - O que é uma Heap Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - O que é uma Heap Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - Localizando uma linha na página.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - Localizando uma linha na página.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - Estrutura de um Extent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - Estrutura de um Extent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - Estrutura de um Registro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - Estrutura de um Registro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - Armazenamento de Dados Fixos x Dados Variável.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - Armazenamento de Dados Fixos x Dados Variável.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - Visualizando o conteúdo de uma página de dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - Visualizando o conteúdo de uma página de dados.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "SQL Server Scripts1\SQL Server Scripts1.ssmssqlproj", "{8DB450F9-1808-4C3C-AE27-CE76BC2072BE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04-Ferramentas e recursos", "04-Ferramentas e recursos\04-Ferramentas e recursos.ssmssqlproj", "{1EC8359C-32D6-490D-A7ED-764403AA6620}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01-Apresentacao", "01-Apresentacao\01-Apresentacao.ssmssqlproj", "{D56B09DB-D89F-431F-B346-72C579846C9C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02-Conceitos de Arquitetura", "02-Conceitos de Arquitetura\02-Conceitos de Arquitetura.ssmssqlproj", "{3520075F-8F5A-46C5-B670-4EE1785161AE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03-Armazenamento de Dados", "03-Armazenamento de Dados\03-Armazenamento de Dados.ssmssqlproj", "{281B2812-BD5C-4198-A2A0-0293B762975C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05-Indices, os melhores amigos das querys", "05-Indices, os melhores amigos das querys\05-Indices, os melhores amigos das querys.ssmssqlproj", "{FAC1DFFF-2968-4BE4-B864-E91DE14522F4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06-Criando query com alto desempenho", "06-Criando query com alto desempenho\06-Criando query com alto desempenho.ssmssqlproj", "{D1EE87BE-02F2-40BE-BA62-83C322C45B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB450F9-1808-4C3C-AE27-CE76BC2072BE}.Default|Default.ActiveCfg = Default
+		{1EC8359C-32D6-490D-A7ED-764403AA6620}.Default|Default.ActiveCfg = Default
+		{D56B09DB-D89F-431F-B346-72C579846C9C}.Default|Default.ActiveCfg = Default
+		{3520075F-8F5A-46C5-B670-4EE1785161AE}.Default|Default.ActiveCfg = Default
+		{281B2812-BD5C-4198-A2A0-0293B762975C}.Default|Default.ActiveCfg = Default
+		{FAC1DFFF-2968-4BE4-B864-E91DE14522F4}.Default|Default.ActiveCfg = Default
+		{40FF4E8C-F399-44B6-800D-B65B6E11D37E}.Default|Default.ActiveCfg = Default
+		{D1EE87BE-02F2-40BE-BA62-83C322C45B51}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

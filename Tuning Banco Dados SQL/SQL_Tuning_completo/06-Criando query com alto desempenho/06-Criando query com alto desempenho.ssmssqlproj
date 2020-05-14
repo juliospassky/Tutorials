@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="06-Criando query com alto desempenho">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DBSERVER:DBSERVER\Administrator">
+          <Created>2018-05-24T15:48:46.3034459-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DBSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 - SARG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - SARG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - Convertendo NoSARG para SARG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - Convertendo NoSARG para SARG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - Eliminado conversões implícitas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - Eliminado conversões implícitas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03a - Apoio conversões implícitas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03a - Apoio conversões implícitas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - Filtros no WHERE ou HAVING.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - Filtros no WHERE ou HAVING.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - Armazenamento NULL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - Armazenamento NULL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - Store Procedure com SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - Store Procedure com SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - Desativar o SET NOCOUNT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - Desativar o SET NOCOUNT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - Usando UDF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - Usando UDF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - NOT IN x NOT EXISTS x LEFT  JOIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - NOT IN x NOT EXISTS x LEFT  JOIN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09a - Apoio NOT IN x NOT EXISTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09a - Apoio NOT IN x NOT EXISTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - UNION e UNION ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - UNION e UNION ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10a - Apoio UNION x UNION ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10a - Apoio UNION x UNION ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - SET x SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - SET x SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - Validar dados antes de atualizar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - Validar dados antes de atualizar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A nova função FORMAT. Não usar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>A nova função FORMAT. Não usar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Case .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Case .sql</FullPath>
+        </FileNode>
+        <FileNode Name="Evitar o Distinct.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Evitar o Distinct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Instruções sem sentido algum.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Instruções sem sentido algum.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Order By desnecessário.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Order By desnecessário.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tabelas Temporarias e variavel Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tabelas Temporarias e variavel Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Usando o COUNT().sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Usando o COUNT().sql</FullPath>
+        </FileNode>
+        <FileNode Name="Utilizando colunas calculadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Utilizando colunas calculadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Utilizar Schemas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Utilizar Schemas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

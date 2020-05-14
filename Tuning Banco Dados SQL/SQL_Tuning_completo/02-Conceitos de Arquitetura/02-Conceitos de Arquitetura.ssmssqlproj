@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Conceitos de Arquitetura">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DBSERVER:DBSERVER\Administrator">
+          <Created>2018-03-13T15:00:47.7927159-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DBSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>DBDemo</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 - Página e Extent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - Página e Extent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - Arquitetura da Memoria.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - Arquitetura da Memoria.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - Design da Banco de Dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - Design da Banco de Dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - Tipos de Dados, Domínio e armazenamento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - Tipos de Dados, Domínio e armazenamento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - Design da tabelas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - Design da tabelas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - Colunas Calculadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - Colunas Calculadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - Colunas Criptografadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - Colunas Criptografadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - Tabelas compactadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - Tabelas compactadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - Breve introdução a DMVs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - Breve introdução a DMVs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09a - Apoio da Introdução a DMVs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09a - Apoio da Introdução a DMVs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - Conceitos de Arvore Balanceada.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - Conceitos de Arvore Balanceada.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - Introdução ao Query Processor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - Introdução ao Query Processor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Banco de dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DBSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DBSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Banco de dados.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

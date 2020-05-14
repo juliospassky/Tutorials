@@ -1,0 +1,51 @@
+PAGE: (1:188)
+
+BUFFER:
+
+BUF @0x00000078D3179FC0
+
+bpage = 0x00000078C00CE000          bhash = 0x0000000000000000          bpageno = (1:188)
+bdbid = 6                           breferences = 0                     bcputicks = 0
+bsampleCount = 0                    bUse1 = 33066                       bstat = 0x10b
+blog = 0x215acccc                   bnext = 0x0000000000000000          bDirtyContext = 0x00000078CCB4B850
+bstat2 = 0x0                        
+
+PAGE HEADER:
+
+Page @0x00000078C00CE000
+
+m_pageId = (1:188)                  m_headerVersion = 1                 m_type = 1
+m_typeFlagBits = 0x0                m_level = 0                         m_flagBits = 0x8000
+m_objId (AllocUnitId.idObj) = 225   m_indexId (AllocUnitId.idInd) = 256 
+Metadata: AllocUnitId = 72057594052673536                                
+Metadata: PartitionId = 72057594046251008                                Metadata: IndexId = 0
+Metadata: ObjectId = 114099447      m_prevPage = (0:0)                  m_nextPage = (0:0)
+pminlen = 27                        m_slotCnt = 1                       m_freeCnt = 8000
+m_freeData = 190                    m_reservedCnt = 0                   m_lsn = (38:3256:24)
+m_xactReserved = 0                  m_xdesId = (0:0)                    m_ghostRecCnt = 0
+m_tornBits = 0                      DB Frag ID = 1                      
+
+Allocation Status
+
+GAM (1:2) = ALLOCATED               SGAM (1:3) = ALLOCATED              
+PFS (1:1) = 0x61 MIXED_EXT ALLOCATED  50_PCT_FULL                        DIFF (1:6) = CHANGED
+ML (1:7) = NOT MIN_LOGGED           
+
+DATA:
+
+Slot 0, Offset 0x60, Length 94, DumpStyle BYTE
+
+Record Type = PRIMARY_RECORD        Record Attributes =  NULL_BITMAP VARIABLE_COLUMNS
+Record Size = 94                    
+Memory Dump @0x0000007A0189A060
+
+0000000000000000:   30001b00 b3150000 37383635 34333435 36353400  0...³...78654345654.
+0000000000000014:   000000df 63000006 00000300 33004400 5e004a6f  ...ßc.......3.D.^.Jo
+0000000000000028:   73652064 61205369 6c766141 762e2050 61756c69  se da SilvaAv. Pauli
+000000000000003C:   7374612c 20313030 46616c74 61206170 72657365  sta, 100Falta aprese
+0000000000000050:   6e746172 20646f63 756d656e 746f               ntar documento
+
+OFFSET TABLE:
+
+Row - Offset                        
+0 (0x0) - 96 (0x60)                 
