@@ -56,4 +56,8 @@ Pode se ativar ou desativar (on, off) as estatísticas da query com o comando:
 ```sql
 set statistics io on
 set statistics time on 
+
+--Caso nao esteja em ambiente de produção recomenda-se limpar o fuffer e a cache
+DBCC DROPCLEANBUFFERS 
+DBCC FREEPROCCACHE 
 ```
