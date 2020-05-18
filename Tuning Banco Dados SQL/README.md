@@ -1,6 +1,9 @@
 Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.udemy.com/course/tuning-em-t-sql/)
 
-#Tuning Banco de Dados
+# Tuning Banco de Dados
+## Formatação do disco
+Formatação NTFS ou ReFS, com unidades de alocação de 64K
+
 ## Criação do banco
 Evite criar um banco com um simples comando: 
 ```sql
