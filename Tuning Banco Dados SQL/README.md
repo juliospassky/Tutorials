@@ -55,4 +55,5 @@ go
 Pode se ativar ou desativar (on, off) as estatísticas da query com o comando:
 ```sql
 set statistics io on
+set statistics time on 
 ```
