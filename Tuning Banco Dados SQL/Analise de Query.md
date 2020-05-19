@@ -2,8 +2,9 @@ Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.ude
 
 # Tuning Banco de Dados
 
-## Ferramentas para medir queries
-1) Pode se ativar ou desativar (on, off) as estatísticas da query com o comando:
+# Ferramentas para medir queries
+
+## Ativar ou desativar (on, off) as estatísticas da query
 ```sql
 set statistics io on
 set statistics time on 
@@ -13,7 +14,8 @@ DBCC DROPCLEANBUFFERS
 DBCC FREEPROCCACHE 
 ```
 
-2) Outra maneira é habilitar a ferramenta nativa do SSMS (Query -> Include Client Statistics) 
+## Habilitar a ferramenta nativa do SSMS
+(Query -> Include Client Statistics) 
 
 ## (Profile) Ferramenta para monitorar eventos no SSMS 
 No SSMS Tools -> SQL Server Profile
