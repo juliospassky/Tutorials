@@ -1,7 +1,5 @@
 Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.udemy.com/course/tuning-em-t-sql/)
 
-# Tuning Banco de Dados
-
 # Ferramentas para medir queries
 
 ## Ativar ou desativar (on, off) as estatísticas da query
@@ -27,4 +25,4 @@ Eventos:
 - Aumento e Redução do banco de dados
 - Mensagens de erros e avisos
 
-Dica, nas opções de escolha do profile, ative T-SQL -> SQL:StmtCompleted (Indica que uma instrução Transact-SQL foi concluída)
+Dica, nas opções de escolha do profile, ative T-SQL -> SQL:StmtCompleted (Indica que uma instrução Transact-SQL foi concluída), utiliza o filtro com o valor do SPID (Id da tela atual de query no SSMS (select @@SPID)
