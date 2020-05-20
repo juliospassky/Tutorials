@@ -45,56 +45,6 @@ Alternativa menos custosa em relação ao profile
 Extended Events é uma arquitetura do SQL SERVER que permite coletar as informações necessárias sobre os eventos em execução
 para solucionar ou identificar problemas de desempenho. Para iniciar a análise, crie a pasta C:\XE, os arquivos gerados terão a extensão .XEL
 
-Crie o evento (para queries completadas):
-```sql
-Create Event Session Monitor On server 
-   Add Event sqlserver.sql_statement_completed
-   Add Target package0.event_file ( Set filename = 'C:\XE\Monitor.xel')
-GO
-```
-Inicie o evento:
-```sql
-Alter Event Session Monitor on Server State = Start 
-go
-```
-Realize a query que deseja analisar Ex.:
-```sql
-SELECT name, street from client WHERE id = 201231 
-```
-Transforme os dados gerados em XML
-```sql
-Select convert(xml, event_data) AS xData
-  From sys.fn_xe_file_target_read_file('C:\XE\Monitor*.xel',null,null,null)
-go
-```
-Pare o evento
-```sql
-With cteDados as (Select OBJECT_NAME AS cEvent, 
-        CONVERT(XML, event_data) AS xData,
-		    cast(SWITCHOFFSET(timestamp_utc ,'-03:00') as datetime) as dDateTime 
-        From sys.fn_xe_file_target_read_file('C:\XE\Monitor*.xel',null,null,null)),
-   cteDadosFormatados  as (
-   Select cEvent ,
-          xData,
-          dDateTime,
-          xData.value('(/event/data[@name=''duration'']/value)[1]','int')/1000000.0  as nDuracaoSeg,
-          xData.value('(/event/data[@name=''cpu_time'']/value)[1]','int')            as nCPU,
-          xData.value('(/event/data[@name=''logical_reads'']/value)[1]','int')       as nLeituraLogical,
-          xData.value('(/event/data[@name=''physical_reads'']/value)[1]','int')      as nLeituraFisica,
-          xData.value('(/event/data[@name=''writes'']/value)[1]','int')              as nWrite,
-          xData.value('(/event/data[@name=''row_count'']/value)[1]','int')           as nLinhas,
-          xData.value('(/event/data[@name=''statement'']/value)[1]','varchar(max)')  as cComando
-     From cteDados
-)
-Select * From cteDadosFormatados where cComando like '%tItemMovimento%' --Remover essa linha caso queira ver todos os eventos
-```
-Apague a sessão
-```sql
-Drop Event Session Monitor 
-On Server
-```
------------------------------------------------------
-Outra alternativa seria cria uma Storie Procedure para evitar alguns dos passos anteriores e simplificado
 ```sql
 Create or Alter Procedure stp_RastreamentoXE_Para_Statement_Completed 
 @cSession varchar(255) as
@@ -148,4 +98,54 @@ Interrompa o monitoramento
 ```sql
 Alter Event Session Monitor on Server State = Stop
 go
+```
+-----------------------------------------------------
+Outra alternativa seria transformar os dados em xml e analisá-los, no entanto, essa operação é mais custosa
+Crie o evento (para queries completadas):
+```sql
+Create Event Session Monitor On server 
+   Add Event sqlserver.sql_statement_completed
+   Add Target package0.event_file ( Set filename = 'C:\XE\Monitor.xel')
+GO
+```
+Inicie o evento:
+```sql
+Alter Event Session Monitor on Server State = Start 
+go
+```
+Realize a query que deseja analisar Ex.:
+```sql
+SELECT name, street from client WHERE id = 201231 
+```
+Transforme os dados gerados em XML
+```sql
+Select convert(xml, event_data) AS xData
+  From sys.fn_xe_file_target_read_file('C:\XE\Monitor*.xel',null,null,null)
+go
+```
+Pare o evento
+```sql
+With cteDados as (Select OBJECT_NAME AS cEvent, 
+        CONVERT(XML, event_data) AS xData,
+		    cast(SWITCHOFFSET(timestamp_utc ,'-03:00') as datetime) as dDateTime 
+        From sys.fn_xe_file_target_read_file('C:\XE\Monitor*.xel',null,null,null)),
+   cteDadosFormatados  as (
+   Select cEvent ,
+          xData,
+          dDateTime,
+          xData.value('(/event/data[@name=''duration'']/value)[1]','int')/1000000.0  as nDuracaoSeg,
+          xData.value('(/event/data[@name=''cpu_time'']/value)[1]','int')            as nCPU,
+          xData.value('(/event/data[@name=''logical_reads'']/value)[1]','int')       as nLeituraLogical,
+          xData.value('(/event/data[@name=''physical_reads'']/value)[1]','int')      as nLeituraFisica,
+          xData.value('(/event/data[@name=''writes'']/value)[1]','int')              as nWrite,
+          xData.value('(/event/data[@name=''row_count'']/value)[1]','int')           as nLinhas,
+          xData.value('(/event/data[@name=''statement'']/value)[1]','varchar(max)')  as cComando
+     From cteDados
+)
+Select * From cteDadosFormatados where cComando like '%tItemMovimento%' --Remover essa linha caso queira ver todos os eventos
+```
+Apague a sessão
+```sql
+Drop Event Session Monitor 
+On Server
 ```
