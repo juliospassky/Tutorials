@@ -16,6 +16,7 @@ DBCC FREEPROCCACHE
 (Query -> Include Client Statistics) 
 
 ## (Profile) Ferramenta para monitorar eventos no SSMS 
+Cuidado: Essa ferramenta é custosa para o banco
 No SSMS Tools -> SQL Server Profile
 
 Eventos:
