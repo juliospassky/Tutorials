@@ -1,6 +1,6 @@
 Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.udemy.com/course/tuning-em-t-sql/)
 
-# Ferramentas para medir queries
+# Ferramentas para medir e analisar queries
 
 ## Ativar ou desativar (on, off) as estatísticas da query
 ```sql
@@ -26,3 +26,15 @@ Eventos:
 - Mensagens de erros e avisos
 
 Dica, nas opções de escolha do profile, ative T-SQL -> SQL:StmtCompleted (Indica que uma instrução Transact-SQL foi concluída), utiliza o filtro com o valor do SPID (Id da tela atual de query no SSMS (select @@SPID)
+
+## Plano de execução estimado e real
+Para ativar o estimado (antes de realizar a query) Ctrl + L ou no menu do SSMS clique no botão (Display Extimated Execution Plan)
+Para ativar o real (após de realizar a query) Ctrl + M ou no menu do SSMS clique no botão (Include Actual Execution Plan)
+
+Devemos evitar os operadores:
+- Table Scan (Tabela sem index - Varre toda a tabela)
+- Index Scan (Varre toda a tabela)
+- Sort (Ordenar os dados sem necessidade real)
+- RID Lookup (Heap - RID busca dados que são pedidos na query mas não possuem index)
+- Compute Scalar (Operação matemática na consulta)
+
