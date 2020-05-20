@@ -38,10 +38,11 @@ Eventos:
 - Aumento e Redução do banco de dados
 - Mensagens de erros e avisos
 
-Dica, nas opções de escolha do profile, ative T-SQL -> SQL:StmtCompleted (Indica que uma instrução Transact-SQL foi concluída), utiliza o filtro com o valor do SPID (Id da tela atual de query no SSMS (select @@SPID)
+Dica, nas opções de escolha do profile, ative T-SQL -> SQL:StmtCompleted (Indica que uma instrução Transact-SQL foi concluída), utiliza o filtro com o valor do SPID (Id da tela atual de query no SSMS (select @@SPID))
 
 ## Extended Events
 Alternativa menos custosa em relação ao profile
+
 Extended Events é uma arquitetura do SQL SERVER que permite coletar as informações necessárias sobre os eventos em execução
 para solucionar ou identificar problemas de desempenho. Para iniciar a análise, crie a pasta C:\XE, os arquivos gerados terão a extensão .XEL
 
@@ -80,7 +81,6 @@ begin
 end 
 go
 ```
-
 Inicie o evento:
 ```sql
 Alter Event Session Monitor on Server State = Start 
@@ -99,8 +99,11 @@ Interrompa o monitoramento
 Alter Event Session Monitor on Server State = Stop
 go
 ```
+
 -----------------------------------------------------
+
 Outra alternativa seria transformar os dados em xml e analisá-los, no entanto, essa operação é mais custosa
+
 Crie o evento (para queries completadas):
 ```sql
 Create Event Session Monitor On server 
