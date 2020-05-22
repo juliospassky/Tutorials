@@ -21,7 +21,9 @@ Menos usados:
 
 ## Clusterizado e Não Clusterizado
 Limitações
+
 Clusterizado: Apenas 1 índice pode ser criado na tabela.
+
 Não Clusterizado: Vários índices podem ser criados na tabela.
 
 "Quando cria-se um índices clusterizado, a tabela deixa de ser uma HEAP TABLE e passa a ser uma CLUSTERED TABLE
@@ -38,4 +40,64 @@ Create Index <Nome do Indice> on <Nome da tabela>  (<Coluna1>,<Coluna2>,...)
 ```
 
 Quando criamos em uma tabela uma constraint do tipo Primary Key, o SQL Server já cria um índice
-Clusterizado Único para manter essa restrição.
+Clusterizado Único para manter essa restrição.Ao criar uma chave primária o SQL já cria um índice clusterizado para a tabela.
+
+Recomenda-se criar um índice (clusterizado ou não clusterizado) para as colunas da FK de outra tabela.
+```sql
+Create Index IDXFKProduto on tItemMovimento (iidproduto) 
+```
+
+## Index Composto
+
+Em uma query que temos duas colunas que são utilizadas na expressao WHERE para realizar o filtro das linhas.
+Podemos criar um índice que cobre as duas colunas e com isso acelarar a consulta.
+
+Exemplo query composta por duas colunas:
+```sql
+Select * From tProduto 
+ Where iIDCategoria = 8 and cCodigoExterno = '8712'
+```
+
+Exemplo de index composto para performar a query
+```sql
+Create Index idxCategoria on tProduto (iidCategoria, cCodigoExterno)
+```
+
+## Index Colunas Calculadas
+Existe uma limitalção de 90 bytes para armazenar um index. 
+Em alguns casos, é necessário criar uma coluna calculada para armazenar um index, por exemplo, um VARCHAR(MAX).
+Nesse caso, recomenda-se utilizar uma função no SQL Server chamada BINARY_CHECKSUM() que gera um valor de soma de verificação de dados.
+
+BINARY_CHECKSUM Ex.: 
+```sql
+Select BINARY_CHECKSUM('SQL SERVER 2017')
+
+--Retorna o valor calculado 1985823776
+```
+
+Dessa forma, dado a coluna cDescricao VARCHAR(MAX), cria-se a coluna nCheckSumDescricao e o index 
+```sql
+Alter table tProduto add nCheckSumDescricao as binary_checksum(cDescricao) persisted
+go
+
+Create Index idxCheckSumDescricao on tProduto (nCheckSumDescricao)
+go
+```
+
+Com isso a consulta a seguir evita um Table Scan e reduz consideravelmente o número de páginas pesquisadas
+```sql
+Declare @cDescricao varchar(max) 
+Declare @nCheckSumDescricao int 
+
+set @cDescricao = 'consectetuer, cursus et, magna. Praesent interdum ligula eu enim.'
+set @nCheckSumDescricao = binary_checksum(@cDescricao)
+
+Select * From tProduto Where cDescricao = @cDescricao 
+    
+Select * From tProduto Where nCheckSumDescricao = @nCheckSumDescricao
+go
+```
+
+
+
+
