@@ -3,33 +3,10 @@ Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.ude
 # Indexes
 
 ## Tipos de indexes
-Mais usados:
+Mais usados: Clusterizado; Não Clusterizado; Exclusivo; Indices com colunas incluídas; Indices com colunas computadas e
+Indices filtrados.
 
--Clusterizado
-
--Não Clusterizado
-
--Exclusivo
-
--Indices com colunas incluídas
-
--Indices com colunas computadas
-
--Indices filtrados
-
-Menos usados:
-
--Hash 
-
--Não clusterizado com otimização de memória.
-
--ColumnStore
-
--Espacial
-
--XML
-
--Indice para Full Text Search 
+Menos usados: Hash; Não clusterizado com otimização de memória; ColumnStore; Espacial; XML e Indice para Full Text Search 
 
 ## Clusterizado e Não Clusterizado
 Limitações
