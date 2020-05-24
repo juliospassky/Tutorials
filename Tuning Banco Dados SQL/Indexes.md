@@ -97,7 +97,14 @@ Select * From tProduto Where cDescricao = @cDescricao
 Select * From tProduto Where nCheckSumDescricao = @nCheckSumDescricao
 go
 ```
+## Colunas incluídas e índice de cobertura
+Colunas incluídas em um índice, é um recurso que permite incluír colunas na definição do índice e que não farão parte da chave.
+Esse recurso existe para evitar o Key Lookup ou RID Lookup, a consulta carrega todos os dados que necessita apenas pesquisando no índice, sem a necessidade de acessar a tabela. 
 
+```sql
+Create NonClustered Index <Nome do Indice> on <Nome da tabela> (<Coluna1>,<Coluna2>,...) 
+    Include ((<Coluna3>,<Coluna4>,...)
+```
 
 
 
