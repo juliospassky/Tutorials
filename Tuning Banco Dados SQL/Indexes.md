@@ -95,7 +95,7 @@ Create NonClustered Index <Nome do Indice> on <Nome da tabela> (<Coluna1>,<Colun
     Include ((<Coluna3>,<Coluna4>,...)
 ```
 
-## Mantenção de Index
+## Manutenção de Index
 A manutenção de Index é necessária para otimizar os processos de busca nas tabelas. Recomenda-se atualizar as estátisticas do index e fazer rebuild periodicamente.
 
 A divisão de uma página (page split) ocorre em operações INSERT e UPDATE quando ocorre uma tentativa de alocar um nova linha na página e não existe mais espaço. O SQL Server cria uma nova página, transfere metade dos dados entre essas duas páginas, realiza a operação (INSERT ou UPDATE) e atualiza os ponteiros das páginas. Observação: o processo só ocorre em tabelas e índices já criados.
