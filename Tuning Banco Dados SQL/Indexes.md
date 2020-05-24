@@ -4,19 +4,31 @@ Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.ude
 
 ## Tipos de indexes
 Mais usados:
+
 -Clusterizado
+
 -Não Clusterizado
+
 -Exclusivo
+
 -Indices com colunas incluídas
+
 -Indices com colunas computadas
+
 -Indices filtrados
 
 Menos usados:
+
 -Hash 
+
 -Não clusterizado com otimização de memória.
+
 -ColumnStore
+
 -Espacial
+
 -XML
+
 -Indice para Full Text Search 
 
 ## Clusterizado e Não Clusterizado
@@ -106,5 +118,14 @@ Create NonClustered Index <Nome do Indice> on <Nome da tabela> (<Coluna1>,<Colun
     Include ((<Coluna3>,<Coluna4>,...)
 ```
 
+## Mantenção de Index
+A manutenção de Index é necessária para otimizar os processos de busca nas tabelas. Recomenda-se atualizar as estátisticas do index e fazer rebuild periodicamente.
 
+A divisão de uma página (page split) ocorre em operações INSERT e UPDATE quando ocorre uma tentativa de alocar um nova linha na página e não existe mais espaço. O SQL Server cria uma nova página, transfere metade dos dados entre essas duas páginas, realiza a operação (INSERT ou UPDATE) e atualiza os ponteiros das páginas. Observação: o processo só ocorre em tabelas e índices já criados.
 
+Um processo manual para fazer um rebuild do index pode envolver um parâmetro (FillFactor) que varia em porcentagem de 1 a 100. Esse valor vai decidir o tamanho do pagesplit. Nota-se que esse processo pode aumentar o número de páginas e consequentemente reduzir a eficiência da query.
+
+Rebuild do index com FillFactor
+```sql
+Alter Index idcDemo on tDemoPageSplit Rebuild with (fillfactor = 75)
+```
