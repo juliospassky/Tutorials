@@ -45,7 +45,7 @@ Quando executa-se uma instrução INSERT, UPDATE, DELETE, MERGE ou um procedimen
 
   (XX rows affected)
   
-  Em um ambiente de produção que essa informação não seja necessária, as queries ganharam performance no trafego de rede.
+  Em um ambiente de produção que essa informação não seja necessária, as queries ganharão performance no trafego de rede.
   Para desabilitar essa informação usa-se a instrução: Set nocount on
   
 ```sql
