@@ -4,7 +4,7 @@ Creditos [SQL SERVER no máximo desempenho. Aprenda SQL TUNING!](https://www.ude
 ## Search Argument (SARG)
 SARG é a forma correta de montar a query para performar a consulta.
 
-Deve-se montar a estrutura <Coluna> <Operador> <Valor>. A <Coluna> da clausula não deve conter operação.
+Deve-se montar a estrutura < Coluna > < Operador > < Valor >. A < Coluna > da clausula não deve conter operação.
 
 Exemplo SARG e NoSARG, ambas trazem o mesmo resultado, no entanto a SARG é a performática
 ```sql
