@@ -60,6 +60,57 @@ end
 go
 ```
 
+## Não validar os dados antes de atualizá-los
 
+Dado o seguinte cenário: Deve-se criar uma procedure para atualizar o crédito do cliente.
+Receber o id do cliente e o valor do crédito. Voce deve validar se o cliente existe. Se sim, realizar alteração do clientes,
+substituíndo o credito atual pelo novo. Se não, emitir uma mensagem de aviso para a aplicação.
 
+Exemplo ruim
+```sql
+Create or Alter Procedure stp_AlteraClienteCredito
+@iidCliente int,
+@mCredito money as
+Begin 
+    set nocount on
+    
+    declare @lClienteExiste int = 0 -- Assume o valor zero 
 
+    Select @lClienteExiste = iidcliente 
+      From tCliente 
+     Where iIDCliente = @iidCliente     
+    if @lClienteExiste <> 0
+       update tCliente 
+          set mCredito = @mCredito 
+        where iIDCliente = @iidCliente
+    else 
+       raiserror('Cliente %d não existe', 16,1,@iidcliente)    
+    Return @lClienteExiste
+End 
+go
+```
+
+Exemplo mekhor, sem fazer  a verificação, apenas realizar o UPDATE
+```sql
+Create or Alter Procedure stp_AlteraClienteCredito
+@iidCliente int,
+@mCredito money as
+Begin
+
+    Set nocount on 
+
+    Declare @lClienteExiste int = 0 -- Assume o valor zero 
+
+    Update tCliente 
+       Set mCredito = @mCredito 
+     Where iIDCliente = @iidCliente
+    
+    Select @lClienteExiste = @@ROWCOUNT
+
+    If @lClienteExiste = 0    
+       Raiserror('Cliente %d não existe', 16,1,@iidcliente)
+     
+    Return @lClienteExiste
+End 
+go
+```
