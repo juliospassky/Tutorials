@@ -4,6 +4,7 @@
   - VSCode Icons Team - Melhora as imagens de pastas e arquivos  
   - Prettier - Formata código
   - Bracket Pair Colorise - Traça uma linha no abre e fecha chaves {}
+  - ResXpress - Arquivo de resource visual (.resx)
   
 - C#
   - C# - Códigos em C#
